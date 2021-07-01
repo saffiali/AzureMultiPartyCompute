@@ -28,7 +28,7 @@ That precisely is the definition of multiparty computing. It is a system where o
 
 Let us take an example. An obvious choice for a multiparty workflow is the supply chain network of any company. In the Retail context, raw materials flow from the point of origin to the manufacturing unit. Finished goods from the manufacturer go through a set of shipping partners to a distribution hub from where they are sent to all the retail supermarkets.
 
-![](RackMultipart20210701-4-63zqc5_html_f1c7c3b4fdbda548.png)
+![](/MPC-Images/Picture1.png)
 
 _Figure 1: A typical Retail Supply chain_
 
@@ -70,7 +70,7 @@ That brings us to the important decision matrix of when blockchains make sense a
 
 When I walk into an architecture and design workshop, where the main idea is to figure out how blockchains can help, I lead with the following set of questions.
 
-![](RackMultipart20210701-4-63zqc5_html_2d181e91c7a405bb.png)
+![](/MPC-Images/Picture2.png)
 
 _Figure 2: Blockchain Decision Matrix_
 
@@ -115,7 +115,7 @@ The protocols space is still evolving. There is no interoperability worth speaki
 
 Once the protocol is decided, the next step is to figure out how to deploy this network on the cloud. There are several deployment options available as shown in the picture below.
 
-![](RackMultipart20210701-4-63zqc5_html_35996df311783f2.png)
+![](/MPC-Images/Picture3.png)
 
 _Figure 3: Blockchain Ledgers - Deployment on Azure_
 
@@ -138,13 +138,13 @@ infrastructure deployments are great from a customization point of view. But the
 
 We know encryption at rest and in transit, but what about data in use for computation. Confidential Computing allow encrypting data while it is being used in RAM.
 
-![](RackMultipart20210701-4-63zqc5_html_414ea327217c129.png)
+![](/MPC-Images/Picture4.png)
 
 _Figure 4: Data protection lifecycle_
 
 It lets you process data from multiple sources without exposing the input data to other parties. This type of secure computation enables many multiparty compute scenarios such as: anti-money laundering, fraud-detection, and secure analysis of healthcare data where data protection is mandatory in every step.
 
-![](RackMultipart20210701-4-63zqc5_html_b532ad89ed8eef65.png)
+![](/MPC-Images/Picture5.png)
 
 _Figure 5: Azure Confidential Computing_
 
@@ -175,7 +175,7 @@ Since it is a feature of Azure SQL Database, there is no complex figuration need
 
 It provides tamper-evidence capabilities in your database, enabling the ability to cryptographically attest to other parties, such as auditors or other business parties, that your data hasn&#39;t been tampered with.
 
-![](RackMultipart20210701-4-63zqc5_html_195f37d13e684b1e.png)
+![](/MPC-Images/Picture6.png)
 
 _Figure 6: Azure SQL DB Ledger_
 
@@ -183,11 +183,11 @@ Ledger helps protect data from any attacker or high-privileged user, including D
 
 ## Azure SQL Database Ledger vs. Azure Confidential Ledger
 
-![](RackMultipart20210701-4-63zqc5_html_d70c4fd2321fb2d9.png)
+![](/MPC-Images/Picture7.png)
 
 # Azure Multiparty compute decision tree.
 
-![](RackMultipart20210701-4-63zqc5_html_ce16a6f3b9af56f2.png)
+![](/MPC-Images/Picture8.png)
 
 # Summary
 
