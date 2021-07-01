@@ -127,10 +127,11 @@ While you can build the network from scratch, there are deployment templates ava
 
 infrastructure deployments are great from a customization point of view. But they are a management overhead for your IT team as you must take care of OS updates, patch updates, keeping the system up and running, high availability, and business continuity aspects. AKS based implementations come with some sort of a managed service for the VMs that power the AKS cluster. However, you still are responsible for managing the various AKS clusters in your cloud account along with any networking or storage options in your architecture.
 
+Blockchain as a Service or Ledger as a Service is a managed PaaS offering where the underlying infrastructure is managed by the service provider. You will get an RPC endpoint using which you can interact with the blockchain ledger. Any version updates, patches etc are all handled by the service provider. In terms of major upgrades where the new version may break existing functionality, you have an option to defer the upgrades so that you can fix your distributed app or smart contracts before the upgrade happens. High availability, consortium management (Inviting new organizations to the network etc) are all baked into the service. 
 
 ### Azure Confidential Ledger
 
-We know encryption at rest and in transit, but what about data in use for computation. Confidential Computing allow encrypting data while it is being used in RAM.
+We know encryption at rest and in transit, but what about the data in use for computation? Confidential Computing allow encryption of data while it is being used in the main memory (RAM).
 
 ![](/MPC-Images/Picture4.png)
 
