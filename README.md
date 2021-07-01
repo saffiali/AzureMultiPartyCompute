@@ -116,7 +116,6 @@ Once the protocol is decided, the next step is to figure out how to deploy this 
 
 _Figure 3: Blockchain Ledgers - Deployment on Azure_
 
-1.
 ### Infrastructure as a service (IaaS)
 
 You can run any ledger protocol on Azure using the infrastructure layer. You can spin up a few Virtual Machines (VMs), install the protocol on those VMs, and stitch them together for a blockchain network. It is easier said than done though. Since most blockchain implementations have multiple organizations and hence multiple cloud accounts, the networking puzzle to make these individual nodes talk to one another is a complex problem to solve.
@@ -125,12 +124,12 @@ Also, VMs are a maintenance nightmare for any organisation. Since most blockchai
 
 While you can build the network from scratch, there are deployment templates available on Azure for most blockchain ledgers using which you can spin up a network in a matter of minutes either on AKS or on virtual machines.
 
-1.
+
 ### Blockchain/DLT as a service (BaaS)
 
 infrastructure deployments are great from a customization point of view. But they are a management overhead for your IT team as you must take care of OS updates, patch updates, keeping the system up and running, high availability, and business continuity aspects. AKS based implementations come with some sort of a managed service for the VMs that power the AKS cluster. However, you still are responsible for managing the various AKS clusters in your cloud account along with any networking or storage options in your architecture.
 
-1.
+
 ### Azure Confidential Ledger
 
 We know encryption at rest and in transit, but what about data in use for computation. Confidential Computing allow encrypting data while it is being used in RAM.
