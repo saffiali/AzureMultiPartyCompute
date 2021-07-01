@@ -7,11 +7,9 @@ This article was authored and reviewed by:
 
 # Abstract
 
-Multi-party compute (MPC), or privacy-preserving computation, is a concept that gives different parties to a relationship the ability to compute data and arrive at a mutually desired result without requiring parties to the transaction to divulge their private data.
+Multiparty Compute (MPC), or Privacy-Preserving Computation, is a concept that gives different parties in a business relationship the ability to share data, perform computations on it, and arrive at a mutually desired result without divulging private data of the individual parties.
 
-Azure has several services that help build secure MPC solutions across the cloud and the edge.
-
-This article is trying to demystify how MPC works; what Azure offers and when to choose specific service over another.
+This is an evolving field and there are several services on Azure that can help you build a secure MPC solution across the cloud and the edge. It is easy to get lost in the details. The purpose of this article is to de-mystify the MPC paradigm; the relevant offerings available on Azure; and when to choose a particular service over another. At the end of the article, we will give you an easy-to-use flowchart to help you decide on the best service to use for your multiparty compute system.
 
 # Multiparty Computing and Blockchains
 
