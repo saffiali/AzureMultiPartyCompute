@@ -1,12 +1,9 @@
-# AzureMultiPartyCompute
-This a multi-Party Compute  options and decision tree
-
 # Authors
 
 This article was authored and reviewed by:
 
-- Saffi Ali: Cloud Solution Architect – Customer Success at Microsoft
-- Venu Vedam: Cloud Solution Architect – Partner Success at Microsoft
+- [Saffi Ali](https://www.linkedin.com/in/saffieldin/): Cloud Solution Architect – Customer Success at Microsoft
+- [Venu Vedam](https://www.linkedin.com/in/vedam): Cloud Solution Architect – Partner Success at Microsoft
 
 # Abstract
 
