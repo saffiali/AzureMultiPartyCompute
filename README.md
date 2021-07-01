@@ -68,7 +68,7 @@ That brings us to the important decision matrix of when blockchains make sense a
 
 ## Blockchain/DLT Decision Matrix
 
-When I walk into an architecture and design workshop, where the main idea is to figure out how blockchains can help, I lead with the following set of questions.
+When we walk into an architecture and design workshop, where the main idea is to figure out how blockchains can help, we lead with the following set of questions.
 
 ![](/MPC-Images/Picture2.png)
 
@@ -109,7 +109,7 @@ Within Azure you have several options when it comes to multiparty solutions. The
 
 ## Blockchain based multiparty options:
 
-As I mentioned in the introduction, blockchain makes sense for certain type of multiparty scenarios. Going back to the Architecture and Design workshop, once we decide that blockchain is the way to go for a given business process transformation, the next step is to design the technology stack. There are several types of blockchains in the market today such as Bitcoin, Ethereum, Hyperledger Fabric, Corda, Hedera Hashgraph etc. We tend to call them &quot;protocols&quot;. It is a just a convenient way of grouping them together.
+As we mentioned in the introduction, blockchain makes sense for certain type of multiparty scenarios. Going back to the Architecture and Design workshop, once we decide that blockchain is the way to go for a given business process transformation, the next step is to design the technology stack. There are several types of blockchains in the market today such as Bitcoin, Ethereum, Hyperledger Fabric, Corda, Hedera Hashgraph etc. We tend to call them &quot;protocols&quot;. It is a just a convenient way of grouping them together.
 
 The protocols space is still evolving. There is no interoperability worth speaking of now. Depending on the protocol chosen, you have access to a set of features. Hence the first step is to list down what we want from our blockchain based system. Then we can zero in on the protocol of choice.
 
