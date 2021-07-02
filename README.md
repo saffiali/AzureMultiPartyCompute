@@ -55,7 +55,7 @@ The narrower your system&#39;s TCB, the more secure your system.
 
 This is the backbone of &quot;Azure Confidential Computing&quot; – where you have access to these secure enclaves. Since these enclaves have the capability to remotely attest themselves to other enclaves, you can design a multi organization network where the complete system runs from the enclaves – also called the Trusted Execution Environments.
 
-Azure provides a service called Azure Confidential Ledger (ACL) that lets you run an Ethereum based ledger on the secure enclaves. (More details on it in the following sections.)
+Azure provides a managed service called Azure Confidential Ledger (ACL) that lets you run a blockchain model on secure enclaves based on Confidential Consortium Framework. (More details on it in the following sections.)
 
 Finally, there is a need for a more centralised system of record, which has a few of the redeeming qualities of blockchain, namely immutability and trustworthiness. Azure SQL Database ledger is such an offering, which blends the power of a relational database that can operate at OLTP performance levels with the trust features that you can expect from multiparty systems. As Gartner predicted back in 2019 (Citation required), at least 20 percent of current blockchain/DLT implementations are better architected using centralised ledger technologies such as Azure SQL Database ledger. In these situations, you do not need any de-centralised consensus but just the immutability aspect of the ledger.
 
